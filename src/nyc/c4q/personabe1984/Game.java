@@ -1,5 +1,6 @@
 package nyc.c4q.personabe1984;
 
+
 public class Game {
     private String mAnswer;
     private String mHits;
