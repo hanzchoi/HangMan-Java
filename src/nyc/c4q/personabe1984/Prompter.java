@@ -11,9 +11,14 @@ public class Prompter {
     }
 
     public void play(){
-        while(mGame.getRemainingTries() > 0){
+        while(mGame.getRemainingTries() > 0 && !mGame.isSolved()){
             displayProgress();
             promptForGuess();
+        }
+        if(mGame.isSolved()){
+            System.out.printf("Congradulation you won with %d tries remaining. \n", mGame.getRemainingTries());
+        }else{
+            System.out.printf("Sorry the word was %s. \n", mGame.getAnswer());
         }
     }
 

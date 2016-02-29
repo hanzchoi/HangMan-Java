@@ -14,6 +14,10 @@ public class Game {
         mMisses = "";
     }
 
+    public String getAnswer(){
+        return mAnswer;
+    }
+
     private char validateGuess(char letter){
         if(! Character.isLetter(letter)){
             throw new IllegalArgumentException("A letter is required");
@@ -62,6 +66,10 @@ public class Game {
 
     public int getRemainingTries(){
         return MAX_MISSES - mMisses.length();
+    }
+
+    public boolean isSolved(){
+        return getCurrentProgress().indexOf('-') == -1;
     }
 
 
