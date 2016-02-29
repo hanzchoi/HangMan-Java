@@ -26,11 +26,9 @@ public class Prompter {
         {
             System.out.println("Enter a letter:  ");
             String guessAsString = console.nextLine();
-            char guess = guessAsString.charAt(0);
-
             try
             {
-                isHit = mGame.applyGuesses(guess);
+                isHit = mGame.applyGuess(guessAsString);
                 isValidGuess = true;
             }
             catch(IllegalArgumentException iae)
