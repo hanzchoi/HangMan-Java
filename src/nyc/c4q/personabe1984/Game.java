@@ -1,7 +1,9 @@
 package nyc.c4q.personabe1984;
 
 
+
 public class Game {
+    public static final int MAX_MISSES = 7;
     private String mAnswer;
     private String mHits;
     private String mMisses;
@@ -12,7 +14,22 @@ public class Game {
         mMisses = "";
     }
 
+    private char validateGuess(char letter){
+        if(! Character.isLetter(letter)){
+            throw new IllegalArgumentException("A letter is required");
+        }
+
+        letter = Character.toLowerCase(letter);
+
+        if(mMisses.indexOf(letter) >= 0 || mHits.indexOf(letter) >= 0){
+            throw new IllegalArgumentException(letter + "This letter is already been guessed");
+        }
+        return letter;
+    }
+
+
     public boolean applyGuesses(char letter){
+        letter = validateGuess(letter);
         boolean isHit = mAnswer.indexOf(letter) >= 0;
         if(isHit){
             mHits += letter;
@@ -21,6 +38,25 @@ public class Game {
         }
         return isHit;
     }
+
+    public String getCurrentProgress(){
+        String progress = "";
+        for(char letter : mAnswer.toCharArray()){
+            char display = '-';
+            if(mHits.indexOf(letter) >= 0){
+                display = letter;
+            }
+            progress += display;
+        }
+        return progress;
+
+    }
+
+    public int getRemainingTries(){
+        return MAX_MISSES - mMisses.length();
+    }
+
+
 
 
 }
