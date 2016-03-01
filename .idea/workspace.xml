@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1df8e85-3b2e-4f82-8745-05d7f50f9fe2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Game.java" afterPath="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Prompter.java" afterPath="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Prompter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java" afterPath="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java" />
     </list>
     <ignored path="Hangman.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,20 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hangman.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hangman.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.26655897">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Prompter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Prompter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nyc/c4q/personabe1984/Prompter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5573506">
+            <state vertical-scroll-proportion="0.0">
               <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
@@ -80,9 +79,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java" />
         <option value="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Game.java" />
         <option value="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Prompter.java" />
+        <option value="$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java" />
       </list>
     </option>
   </component>
@@ -487,6 +486,14 @@
     <entry file="file://$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding />
         </state>
@@ -745,10 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java">
+    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/personabe1984/Prompter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -766,10 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/personabe1984/Prompter.java">
+    <entry file="file://$PROJECT_DIR$/src/nyc/c4q/personabe1984/Hangman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5573506">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.26655897">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
